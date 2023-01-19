@@ -1,0 +1,33 @@
+{
+  "name": "xtrack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "@chec/commerce.js": "^2.8.0",
+    "@emailjs/browser": "^3.10.0",
+    "@jridgewell/sourcemap-codec": "^1.4.14",
+    "@popperjs/core": "^2.11.6",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.15.0",
+    "git": "^0.1.5",
+    "next": "13.0.6",
+    "next-sanity-image": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sanity": "^3.0.6",
+    "swiper": "^8.4.5",
+    "uuid": "^9.0.0"
+  }
+}
